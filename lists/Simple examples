@@ -28,3 +28,14 @@ languages = ['Chinese', 'Spanish', 'English', 'Hindi', 'Arabic', 'Bengali', 'Por
 
 print(languages[::-1]
 '''
+
+'''
+n = int(input())
+languages = []
+
+for i in range(n):
+    s = input()
+    languages.append(s)
+
+print(languages)
+'''
