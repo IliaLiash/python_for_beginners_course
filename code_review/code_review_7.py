@@ -1,6 +1,7 @@
 #Displays the sum of even digits of this number
 
 #Before
+'''
 n = input()
 s = 0
 while n > 10:
@@ -8,6 +9,7 @@ while n > 10:
         s = n % 10
     n //= 10
 print(s)
+'''
 
 #After
 n = int(input())
