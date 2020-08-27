@@ -1,7 +1,6 @@
 #Number of non-negative numbers in the sequence and their product
-
-
 #Before
+'''
 count = 0
 p = 0
 for i in range(1, 10):
@@ -14,8 +13,8 @@ if count > 0:
     print(p)
 else:
     print('NO')
-    
-    
+'''
+      
 #After
 count = 0
 p = 1
