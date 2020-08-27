@@ -1,6 +1,7 @@
 #Number of odd numbers and the maximum odd number
 
 #Before
+'''
 n = 4
 count = 0
 maximum = 999
@@ -16,7 +17,7 @@ if count > 0:
     print(maximum)
 else:
     print('NO')
-    
+'''
 
 #After
 n = 4
