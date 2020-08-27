@@ -7,4 +7,4 @@ def draw_triangle():
         k -= 1
         i += 1
         
-draw_triangle()  # вызов функции
+draw_triangle()
