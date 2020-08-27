@@ -1,6 +1,6 @@
 #Divisible by 4 and maximum from them
-
 #Before
+'''
 n = 7
 count = 0
 maximum = 1000
@@ -15,6 +15,7 @@ if count > 0:
     print(maximum)
 else:
     print('NO')
+'''
 
 #After
 n = 8
