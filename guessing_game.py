@@ -2,10 +2,8 @@ from random import*
 new_game = True
 
 while new_game:
-
     print('Welcome to quessing game!')
     print('Enter the border "n" [1, n]:', end=' ')
-
     n = int(input())
     num = randint(1,n)
 
@@ -46,7 +44,3 @@ while new_game:
     else:
         new_game = False
         print('Thanks for playing the guessing game!')
-
-     
-
-
