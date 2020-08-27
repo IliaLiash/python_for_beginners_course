@@ -1,6 +1,7 @@
 #Product of the digits of the entered number
 
 #Before
+'''
 n = input()
 product = n % 10
 while n >= 10:
@@ -8,7 +9,7 @@ while n >= 10:
     product = product * digit
     n //= 10
 print(product)
-
+'''
 
 #After
 n = int(input())
