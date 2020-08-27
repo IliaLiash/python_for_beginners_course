@@ -9,8 +9,9 @@ while new_game:
     n = int(input())
     num = randint(1,n)
 
-    def is_valid(n):
-        return 1 <= n <= 100
+    def is_valid(number):
+        global n
+        return 1 <= number <= n
 
     print('Enter your number:', end=' ')
     find_number = int(input())
