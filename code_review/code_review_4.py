@@ -1,6 +1,6 @@
 #Displays the maximum digit of number, multiple of 3
-
 #Before
+'''
 n = int(input())
 max_digit = n % 10
 while n > 0:
@@ -13,7 +13,7 @@ if max_digit == 0:
     print('NO')
 else:
     print(max_digit)
-
+'''
 
 #After
 n = int(input())
