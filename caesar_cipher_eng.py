@@ -1,5 +1,3 @@
-#Caesar cipher
-
 n = int(input())
 phraze = input().strip()
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
